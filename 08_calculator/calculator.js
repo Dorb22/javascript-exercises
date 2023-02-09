@@ -11,16 +11,22 @@ const sum = function(array) {
      
 };
 
-const multiply = function() {
-
+const multiply = function(array, product) {
+return total = array.reduce((num, product) => {
+  return product *= num;
+}, 1); 
 };
 
-const power = function() {
-	
-};
+const power = (num1, num2) => num1 ** num2 ;
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	let answer = 1;
+  if (num > 1){
+    for (let i = 1; i <= num; i++){
+    answer *= i;
+  }
+}
+return answer;
 };
 
 // Do not edit below this line
